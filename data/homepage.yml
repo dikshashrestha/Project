@@ -1,0 +1,239 @@
+head:
+  title: "Diksha's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Diksha Shrestha."
+  subtitle: "Data Scientist"
+  description: "Dedicated and results-driven data scientist with over 3 years of academic and professional experience extracting impactful insights from complex data. Displayed strength in synthesizing data, communicating insights, and guiding strategic decisions to improve business processes."
+  image:
+    x: "img/works/back.png"
+    _2x: "img/works/back.png"
+  imageMobile:
+    x: "img/works/back.png"
+    _2x: "img/works/back.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Diksha"
+    URL: "https://www.linkedin.com/in/diksha-shrestha/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/diksha-shrestha/"
+
+    - icon: "github"
+      URL: "https://github.com/dikshashrestha"
+
+
+    - icon: "dribbble"
+      URL: "https://medium.com/@diksha.shrestha775"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    As a Data Scientist, I apply my skills in SQL, Python, and Machine Learning to provide data-driven insights and solutions for various clients across different industries. I have successfully completed multiple projects involving data collection, cleaning, analysis, visualization, and modeling, delivering high-quality reports and dashboards that enable informed decision-making.
+    </p>
+    <p class="lead">
+    I am also pursuing my Master's degree in Data Science and Analytics at Grand Valley State University, where I have gained a solid foundation in Data Mining, Statistics, and Data Visualization with Tableau, and Microsoft Power BI. I have also earned certifications in SQL, Machine Learning with Python, and Advanced SQL for Data Scientists, demonstrating my proficiency and passion for learning new technologies and techniques. My goal is to leverage my analytical skills and domain expertise to add value and impact to the organizations and communities I serve.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/diksha-shrestha/"
+  image:
+    x: "img/who-am-i/Diksha.JPG"
+    _2x: "img/who-am-i/Diksha.JPG"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "As a data scientist, I combine analytical expertise, business acumen, and communication skills to extract impactful insights from data. My experience spans building machine learning models to predict enrollment and revenue, creating interactive dashboards to track marketing effectiveness, and communicating data-driven recommendations to executives. I enjoy the process of collaborating with stakeholders to identify problems amenable to analytics-based solutions and then leveraging my toolkit of data mining, visualization, and machine learning techniques to deliver actionable solutions. My passion is enabling organizations to enhance performance through leveraging the value hidden within their data. Key achievements include increasing forecast accuracy by optimizing machine learning models, boosting viewership and usage of analytics dashboards, and establishing scalable data pipelines to move models into production. I thrive at the intersection of technology, analytics, and business strategy."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/diksha-shrestha/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/1rndCMopNzN7egBTx0HvYAxGA3aRcH2Yf/view"
+
+  items:
+    - title: "Data Scientist and Consultant"
+      company: "Inroads Analytics"
+      duration: "Feb 2023 – Current"
+
+    - title: "Graduate Assistant at Computing and Engineering Department"
+      company: "Grand Valley State University"
+      duration: "May 2022 – Apr 2023"
+
+    - title: "Business Analyst"
+      company: "Property Planning Australia"
+      duration: "Jul 2019 – Dec 2021"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Grand Valley State University"
+      year: "2022-2023"
+      degree: "MS in Data Science and Analytics"
+
+    - university: "LACM"
+      year: "2015-2019"
+      degree: "Bachelors in Business Administration – Finance"
+      
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "EmoReader Package"
+      description: "Built an R package named 'EmoReader,' a powerful tool for text analysis and sentiment analysis. This project involved a multi-faceted approach to text data processing, beginning with Principal Component Analysis (PCA) and Non-Negative Matrix Factorization (NMF) normalization techniques to efficiently transform the text data, making it more suitable for sentiment analysis. Meticulously designed and coded EmoReader to streamline the process, ensuring that users could seamlessly analyze text data for sentiment, thus allowing for deeper insights into the emotional and contextual aspects of the text. EmoReader is a testament to my dedication to advancing the field of text analysis and my ability to create valuable tools that enable users to unlock hidden insights within textual data."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://github.com/dikshashrestha/EmoReader"
+      image:
+        x: "img/works/H Cluster.png"
+        _2x: "img/works/H Cluster.png"
+      is_even: true
+
+    - title: "KNN "
+      description: "Developed the k-Nearest Neighbors (KNN) algorithm from the ground up to predict bird observations within the eBird dataset. I implemented the KNN algorithm from scratch, meticulously coding the distance metrics and the voting mechanism, all while fine-tuning hyperparameters to achieve optimal predictive accuracy. Rigorous testing and validation were integral to my work, and I employed cross-validation techniques to assess the model's robustness. This project not only showcased my proficiency in machine learning but also my problem-solving skills and determination to master complex algorithms. My experience in building the KNN algorithm from the ground up reflects my commitment to tackling intricate challenges and my dedication to pushing the boundaries of my technical capabilities."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://github.com/dikshashrestha/ML-Kaggle-Challenge---KNN-Imputation/blob/main/knnRecommendation.pdf"
+      image:
+        x: "img/works/knn.png"
+        _2x: "img/works/knn.png"
+      is_even: false
+      
+    - title: "MNIST"
+      description: "Developed a neural network model from scratch in R to classify handwritten digits using the MNIST dataset. Implemented computations for the forward pass, loss calculation, backpropagation, and parameter updates to train a deep neural network. Added optimizations like dropout and batch normalization to improve validation accuracy. Achieved 97% accuracy in digit classification, comparable to state-of-the-art results, through techniques like leveraging GPU computing for faster training. This project demonstrated expertise in deep learning fundamentals by coding up the low-level linear algebra and matrix operations for an end-to-end pipeline. Hands-on model building from first principles provided valuable experience in neural network architectures and training techniques."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://github.com/dikshashrestha/MNIST/blob/main/MNIST.pdf"
+      image:
+        x: "img/works/MNIST.png"
+        _2x: "img/works/MNIST.png"
+      is_even: true
+      
+      
+    - title: "Prediction Using Multivariate System and NMF"
+      description: "Developed multivariate analysis pipeline for single-cell multi-omics data scratch in Python. Coded up core NMF algorithms and multiplicative update rules for NMF to learn lower-dimensional representations of gene and protein expression. This project provided hands-on experience in developing unsupervised learning and integration methods for multi-omics data while demonstrating expertise in leveraging multi-view learning to extract biological insights"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://github.com/dikshashrestha/Prediction-challenge/blob/main/Kaggle%20Challenge.ipynb"
+      image:
+        x: "img/works/NMF.png"
+        _2x: "img/works/NMF.png"
+      is_even: false
+      
+      
+      
+    - title: "Auto encoder"
+      description: "Implemented autoencoder algorithms from scratch to impute missing values in eBird datasets. Built models using R and optimization techniques like gradient descent, learning rate tuning, and regularization to maximize prediction accuracy. The autoencoder model attained a lower reconstruction error compared to baseline methods when imputing missing values in the eBird dataset. This project demonstrated expertise in deep learning model development, leveraging neural networks for predictive tasks, and overcoming data quality issues like missing values through imputation algorithms."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://github.com/dikshashrestha/Building-Auto-encoder-Algorithm/blob/main/Auto-encoder.pdf"
+      image:
+        x: "img/works/Auto-encoder.png"
+        _2x: "img/works/Auto-encoder.png"
+      is_even: true
+      
+    - title: "NewYork Property Analysis"
+      description: "Created a shiny dashboard to conduct a comprehensive analysis of New York's property market trends from 2015 to 2019. This project involved data collection, cleaning, and exploration of real estate data to uncover key insights into market shifts over the specified timeframe. Through the interactive Shiny dashboard, users can dynamically visualize and explore various aspects of New York's property market, including price fluctuations, geographic trends, property types, and more. The dashboard not only showcases my proficiency in data analysis but also my ability to create user-friendly, interactive tools that empower users to gain valuable insights from complex datasets."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://dikshashrestha.shinyapps.io/Final_Project/?_ga=2.79845905.723130259.1650075275-1181248765.1650075275&fbclid=IwAR00_gdaKaWjx_Dn0nqdceS369mNdgEdgDDKl0iENmd-ths6IkbjDVs2bho"
+      image:
+        x: "img/works/line5.gif"
+        _2x: "img/works/line5.gif"
+      is_even: false
+      
+
+    
+  
+    
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact Diksha"
+    
+  image:
+    x: "img/who-am-i/Diksha_small.jpg"
+    _2x: "img/who-am-i/Diksha_small.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'https://www.linkedin.com/in/diksha-shrestha/'
+    
+  phone:
+    title: "Phone Number"
+    number: "616-500-7888"
+  email:
+    title: "Email"
+    email: '<a href="mailto:diksha.shrestha775@gmail.com">diksha.shrestha775@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Grand Rapids, MI"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
